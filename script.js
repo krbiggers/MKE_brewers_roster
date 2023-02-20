@@ -13,7 +13,7 @@ fetch('data.json')
         div.innerHTML = rosterData[i].number + ' ' + rosterData[i].firstName + ' ' + rosterData[i].lastName + ' ';
         mainContainer.appendChild(div);
         var more_info = document.createElement("button");
-        more_info.innerHTML = 'more info';
+        more_info.innerHTML = 'More Info';
         more_info.id = rosterData[i].id;
         more_info.addEventListener('click', () => {
           displayPlayerDetails(rosterData, rosterData[i].id);
