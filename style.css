@@ -20,7 +20,7 @@ main {
 body {
   display: flex; 
   flex-direction: column; 
-  align-items: left;
+  align-items: center;
   background-color: #12284B;
   color:#fff;
   padding: 5px;
